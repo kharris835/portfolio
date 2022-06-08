@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgb(93, 93, 233);
-  --lighter-color: rgb(235, 235, 255);
+  --primary-color: rgb(121, 180, 142);
+  --lighter-color: #f6f1fe;
   --secondary-color: rgb(73, 72, 72);
   --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   --font: "Zen Maru Gothic", sans-serif;
@@ -8,23 +8,6 @@
 
 body {
   font-family: var(--font);
-}
-
-h1 {
-  text-align: center;
-  font-size: 100px;
-  margin: 10px;
-  font-weight: 700;
-}
-
-h2 {
-  text-align: center;
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  text-align: center;
 }
 
 .contact {
@@ -56,6 +39,11 @@ h3 {
   background: var(--primary-color);
   color: white;
 }
+
+/* .app-btn {
+  background: var(--primary-color);
+  color: white;
+} */
 
 .homepage {
   text-align: center;
