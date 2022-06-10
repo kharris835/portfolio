@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(121, 180, 142);
-  --lighter-color: #f6f1fe;
+  --lighter-color: rgb(205, 230, 215);
   --secondary-color: rgb(73, 72, 72);
   --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   --font: "Zen Maru Gothic", sans-serif;
@@ -66,13 +66,6 @@ h1 {
   color: var(--primary-color);
 }
 
-.contact p {
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 0px;
-  font-size: 18px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -99,6 +92,13 @@ h1 {
   justify-content: space-evenly;
   margin: 30px;
   line-height: 1.5;
+}
+
+.contact p {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 18px;
 }
 
 .contact-paragraphs {
