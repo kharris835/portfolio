@@ -26,6 +26,10 @@ h1 {
   font-weight: 700;
 }
 
+.homepage {
+  text-align: center;
+}
+
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -44,9 +48,29 @@ h1 {
   border: 1px solid var(--primary-color);
 }
 
-.contact-link {
+.about-link:hover {
+  border: 1px solid var(--primary-color);
   background: var(--primary-color);
   color: white;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+}
+
+.contact-link:hover {
+  border: 1px solid var(--primary-color);
+  background: white;
+  color: var(--primary-color);
+}
+
+.contact p {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 18px;
 }
 
 .email-link {
@@ -55,13 +79,6 @@ h1 {
   color: var(--primary-color);
   font-size: 18px;
   text-decoration: none;
-}
-
-.contact p {
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 0px;
-  font-size: 18px;
 }
 
 .app-btn {
@@ -75,10 +92,6 @@ h1 {
   border: 1px solid var(--primary-color);
   background: white;
   color: var(--primary-color);
-}
-
-.homepage {
-  text-align: center;
 }
 
 .about-paragraphs {
