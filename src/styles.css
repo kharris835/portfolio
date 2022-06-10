@@ -6,15 +6,24 @@
   --font: "Zen Maru Gothic", sans-serif;
 }
 
+@media (max-width: 576px) {
+  .homepage-img {
+    display: none;
+  }
+  .homepage-container {
+    text-align: center;
+  }
+  .app-btn {
+    display: block;
+  }
+}
+
 body {
   font-family: var(--font);
 }
 
-.contact {
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 0px;
-  font-size: 48px;
+h1 {
+  font-weight: 700;
 }
 
 .navigation-links {
@@ -40,10 +49,33 @@ body {
   color: white;
 }
 
-/* .app-btn {
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact p {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.app-btn {
   background: var(--primary-color);
   color: white;
-} */
+  box-shadow: var(--box-shadow);
+  padding: 15px 15px;
+}
+
+.app-btn:hover {
+  border: 1px solid var(--primary-color);
+  background: white;
+  color: var(--primary-color);
+}
 
 .homepage {
   text-align: center;
@@ -56,23 +88,19 @@ body {
   line-height: 1.5;
 }
 
-.about-paragraphs p {
-  font-size: 24px;
+.contact-paragraphs {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
   text-align: center;
-  background: var(--lighter-color);
   margin: 10px;
   padding: 20px;
   color: var(--secondary-color);
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.contact p {
-  margin-bottom: 5px;
+.contact-paragraphs p {
+  background: var(--lighter-color);
+  line-height: 1.5;
+  margin: 10px;
+  padding: 20px;
 }
